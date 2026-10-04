@@ -1,0 +1,8 @@
+current shipped params (lam=1.5,T=0.9,Tm=1.0,beta=0):
+  BALANCED final 0.2840 (ovr 0.3273 worst 0.2282 b20 0.1153)  | kmeans-fam final 0.2740 | train-mix ovr 0.3454
+  per-family: {'crowd_shift': 0.2282, 'edge_surge': 0.4373, 'quiet_break': 0.2934, 'multi_peak': 0.3043, 'steady_flow': 0.3735}
+
+re-tuning the decoder on the BALANCED objective:
+  BEST lam=1.5 T=0.9 Tm=1.0 beta=0.0
+  BALANCED final 0.2840 (ovr 0.3273 worst 0.2282 b20 0.1153) | kmeans-fam final 0.2740
+  per-family: {'crowd_shift': 0.2282, 'edge_surge': 0.4373, 'quiet_break': 0.2934, 'multi_peak': 0.3043, 'steady_flow': 0.3735}

@@ -1,0 +1,12 @@
+zone feats (4200, 16, 113) (0s)
+fold sizes [853 878 903 838 728] RANDCV 0
+H0 zone acc 0.6164 best_it [247, 261, 218, 226, 190] (9s)
+H1 zone acc 0.4305 best_it [306, 253, 184, 318, 272] (17s)
+H2 zone acc 0.3424 best_it [221, 330, 169, 202, 236] (25s)
+H0 tier acc 0.6940
+H1 tier acc 0.6314
+H2 tier acc 0.5824
+lam 0.0: final 0.3105 ovr 0.3364 zone 0.498 tier 0.671 trans 0.268 b20 0.120
+lam 0.5: final 0.3111 ovr 0.3374 zone 0.497 tier 0.671 trans 0.276 b20 0.118
+lam 1.0: final 0.3118 ovr 0.3384 zone 0.497 tier 0.671 trans 0.282 b20 0.116
+lam 2.0: final 0.3116 ovr 0.3386 zone 0.494 tier 0.671 trans 0.287 b20 0.114

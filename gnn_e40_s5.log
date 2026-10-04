@@ -1,0 +1,14 @@
+fold 0 zone [0.653, 0.483, 0.3845] (320s)
+fold 1 zone [0.6367, 0.4636, 0.3872] (584s)
+fold 2 zone [0.6279, 0.4396, 0.34] (848s)
+fold 3 zone [0.6348, 0.4761, 0.4057] (1043s)
+fold 4 zone [0.614, 0.4574, 0.375] (1324s)
+GNN zone acc [0.6338, 0.4638, 0.3781]
+GNN tier acc [0.6936, 0.6419, 0.6019]
+
+GBM alone   balanced 0.2840
+GNN alone   balanced 0.2920
+blend w=0.15 balanced 0.2886 (ovr 0.3323 worst 0.2317)  zoneacc [0.6298, 0.4579, 0.3755]
+blend w=0.25 balanced 0.2917 (ovr 0.3356 worst 0.2345)  zoneacc [0.6314, 0.4652, 0.3821]
+blend w=0.35 balanced 0.2935 (ovr 0.3374 worst 0.2368)  zoneacc [0.6343, 0.469, 0.3886]
+blend w=0.50 balanced 0.2951 (ovr 0.3385 worst 0.2402)  zoneacc [0.6424, 0.4781, 0.3933]

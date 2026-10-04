@@ -1,0 +1,11 @@
+WMODE=bal CAP=4.0 weight range 0.46-4.52
+mean weight by family: {'crowd_shift': 3.06, 'edge_surge': 1.88, 'quiet_break': 0.77, 'multi_peak': 4.52, 'steady_flow': 0.46}
+fold 0 zone [0.6354, 0.4467, 0.3646] (164s)
+fold 1 zone [0.6298, 0.4362, 0.3474] (377s)
+fold 2 zone [0.6235, 0.4286, 0.3289] (550s)
+fold 3 zone [0.6169, 0.4379, 0.3484] (716s)
+fold 4 zone [0.614, 0.4396, 0.342] (886s)
+
+[bal] BEST lam=0.5 T=1.0 Tm=1.15
+  BALANCED final 0.2856 (ovr 0.3283 worst 0.2315 b20 0.1173) | kmeans-fam 0.2722 | train-mix ovr 0.3414
+  per-family: {'crowd_shift': 0.2315, 'edge_surge': 0.4534, 'quiet_break': 0.2934, 'multi_peak': 0.3023, 'steady_flow': 0.361}

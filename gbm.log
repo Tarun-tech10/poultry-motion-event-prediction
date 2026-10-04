@@ -1,0 +1,14 @@
+zone feats (4200, 16, 81) row feats (4200, 40) (0s)
+fold sizes [853 878 903 838 728]
+H0 zone acc 0.6150  (7s)
+H1 zone acc 0.4329  (12s)
+H2 zone acc 0.3357  (16s)
+H0 tier acc 0.6971
+H1 tier acc 0.6152
+H2 tier acc 0.5650
+lam 0.0: final 0.3077 ovr 0.3332 zone 0.496 tier 0.663 trans 0.262 b20 0.120
+lam 0.5: final 0.3090 ovr 0.3351 zone 0.495 tier 0.663 trans 0.272 b20 0.118
+lam 1.0: final 0.3100 ovr 0.3363 zone 0.495 tier 0.663 trans 0.278 b20 0.118
+lam 2.0: final 0.3099 ovr 0.3365 zone 0.492 tier 0.663 trans 0.285 b20 0.115
+lam 4.0: final 0.3087 ovr 0.3357 zone 0.487 tier 0.663 trans 0.290 b20 0.111
+plain argmax: final 0.3074 ovr 0.3329 zone 0.495 tier 0.662
